@@ -1,5 +1,5 @@
-# gittest
-# Hola este es un test
+# Github course
+# Repositorio
 git add . = adds all the files changed to the staging area
 git add "file.txt" = adds specific file to staging enviroment.
 git reset "file.txt" = removes one file from staging
@@ -9,6 +9,8 @@ git branch = Shows existing branches
 git brach "New Branch Name" = Creates a new branch
 git checkout "Branch Name" = Switches to the specified branch
 git merge = merges two branches
+git push -u origin "Branch Name"= 
+git push -f = forces the overwrite of the remote brach, assumes everything is correct.
 
 # Checking status and inspecting commits
 git log = shows commits history and their hashes
@@ -23,3 +25,7 @@ git reset --soft (default) = disregards subsequest commits but keeps all the cha
 git reset --hard = disregards subsequest commits including changes.
 
 # Pull requests
+
+# Other commands
+git init = creates a new local repository
+git remote add = adds a new repository to the project.
